@@ -1,4 +1,6 @@
 # News Reader
+- Default it will show Indian news.
+- In search you can search global news also
 
 ## Technology Used
 - Kotlin
@@ -6,6 +8,8 @@
 - Jetpack Compose
 
 - Retrofit
+
+- Database Encryption using sqlcipher
 
 ## Features 
 
@@ -23,6 +27,8 @@
 - [Retrofit documentation](https://square.github.io/retrofit/)
 
 - [News API documentation](https://newsapi.org/docs)
+
+- [JetPack Compose](https://developer.android.com/jetpack/compose/documentation)
 
 ## Conclusion
 - This project provides a simple and easy-to-use news app that allows users to stay up-to-date with the latest news in various categories. 

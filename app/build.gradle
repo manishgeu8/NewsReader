@@ -94,7 +94,10 @@ dependencies {
 
     implementation 'androidx.browser:browser:1.5.0'
 
-    // Local Unit Tests
+    // ====================sqlcipher====================
+    implementation "net.zetetic:android-database-sqlcipher:4.5.0"
+
+    // ====================Local Unit Tests====================
     implementation "androidx.test:core:1.5.0"
     testImplementation "junit:junit:4.13.2"
     testImplementation "org.hamcrest:hamcrest-all:1.3"

@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">NewsReaderApp</string>
+    <string name="app_name">News Reader</string>
     <string name="please_check_network_connection">Please check your network connection</string>
 </resources>

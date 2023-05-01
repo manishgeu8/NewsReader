@@ -8,6 +8,7 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
+import net.sqlcipher.database.SupportFactory
 import javax.inject.Singleton
 
 @Module
@@ -18,6 +19,7 @@ object DatabaseModule {
     @Singleton
     fun provideDatabase(application: Application, callback: NewsDatabase.Callback): NewsDatabase {
         return Room.databaseBuilder(application, NewsDatabase::class.java, "news_database")
+            .openHelperFactory(SupportFactory("NewsPassphrase".toByteArray()))
             .fallbackToDestructiveMigration()
             .addCallback(callback)
             .build()
