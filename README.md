@@ -3,13 +3,12 @@
 - In search you can search global news also
 
 ## Technology Used
-- Kotlin
-
-- Jetpack Compose
-
-- Retrofit
-
-- Database Encryption using sqlcipher
+- [Kotlin] - Programming language for Android
+- [Hilt-Dagger] - Standard library to incorporate Dagger dependency injection into an Android application.
+- [Retrofit] -  A type-safe HTTP client for Android and Java.
+- [Room] - SQLite object mapping library. Database Encryption using sqlcipher.
+- [Coroutines] - For asynchronous
+- [LiveData] - Data objects that notify views when the underlying database changes.
 
 ## Features 
 
